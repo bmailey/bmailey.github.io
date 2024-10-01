@@ -56,7 +56,7 @@ nav a:hover {
 }
 section {
 	background-color:rgba(0,0,0,0.3);
-     overflow: auto
+     overflow: auto;
 }
 
 
@@ -72,22 +72,27 @@ figure {
 }
 
 figure img {
-    width: 100%
-overflow: auto
+    width: 100%;
+overflow: auto;
+}
+
+h1, h2 {
+    
+    margin: 10px 0;
 }
 
 figcaption {
     color: white;
     font-family: Arial, sans-serif;
     font font-size: 18px;
-    margin-top: 1%;
+    margin-top: 1%;}
 .welcome {
 	padding: 10px 15px;
 	margin: 20px 0;
 	overflow: auto;
 }
 footer {
-	background-color: transparent;
+	background-color:transparent;
 	padding: 10px;
 	color: white;
 	text-align: center;
