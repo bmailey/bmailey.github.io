@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:lightblue;
+    font-family: sans-serif;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color:seagreen;
+    text-align: center;
+}
+
+
+nav {
+   
+    text-align: center;
+    font-size: large;
+    padding: 13px;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+    overflow: auto
+}
+
+nav li {
+    display: inline;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+nav a:hover, aside a:hover {
+    background-color: darkseagreen;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.nivoSlider{
+    width: 80%; 
+    height: auto; 
+    margin: 0 auto; 
+    padding: 0;}
+
+
+p {
+    font-size: 24px;
+}
+    
+    
